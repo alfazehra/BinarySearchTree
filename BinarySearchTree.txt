@@ -3,3 +3,21 @@ Veri Yapıları dersi Project 3
 [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
 Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+Binary Search Tree Düğümler ile çözülen bir yapıdır.
+
+Bize verilen [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizi şu şekilde çözülür.
+
+İlk olarak '7' ile başlayarak bunu kök düğüm olarak düşünelim. daha sonra diziyi sıralı olarak kontrol ederek node yazacağız. Sol tarafa kendinden küçük değerler, sağ tarafa kendinden büyük değerler yazılır.
+ilk değer  '7' den sonra gelen '5' değeri  küçük olduğu için sol tarafa eklenir.sırası ile bu şekilde kontrol etmeye devam edelim
+'1' küçüktür '7' soluna gelir solda bulunan '5' değerinden de küçüktür. '5' sol tarafına düğüm eklenir.
+'8' büyüktür '7' den bu nedenle sağ tarafa düğüm eklenir.
+'3' '7 ve 5' küçüktür '1' den büyüktür '1' sağ tarafına düğüm eklenir.
+'6' değeri '7' den küçüktür. '5' büyük olduğu için '5' sağ tarafına eklenir.
+'0' değeri sırası ile '7,5,1' küçük olduğu için '1' sol tarafına düğüm eklenir.
+'9' değeri  '7 ve 8' büyüktür, '8' sağına eklenir.
+'4' değeri '7 ve 5' küçük '1 ve 3' büyüktür, '3' sağına eklenir.
+'2' değeri '7 ve 5' küçük,'1' büyük sağ tarafına gelir. '3' küçük olduğu içinde '3' sol tarafaına eklenir. ve son bulur.
+
+
+
